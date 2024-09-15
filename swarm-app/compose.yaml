@@ -11,7 +11,7 @@ volumes:
 
 services:
   web-fe:
-    image: nigelpoulton/ddd-book:swarm-app
+    image: kiarashs/dockertutorial:swarm-app
     command: python app.py
     deploy:
       replicas: 4
